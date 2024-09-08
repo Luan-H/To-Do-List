@@ -2,7 +2,7 @@
 Este é um projeto de To-Do list desenvolvido com HTML, CSS e JavaScript. O site permite que os usuários adicionem, removam e marquem tarefas como concluídas. As tarefas são armazenadas localmente no navegador usando o Local Storage, garantindo que suas tarefas persistam mesmo após atualizar a página ou fechar o navegador.
 
 # Visite o Site
-- Você pode acessar o site através do seguinte link: To-Do List
+- Você pode acessar o site através do seguinte link: [To-Do List](https://luan-h.github.io/To-Do-List/)
 
 # Funcionalidades
 - Adicionar Tarefas: Insira novas tarefas no campo de entrada e clique no botão "Adicionar" para incluí-las na lista.
