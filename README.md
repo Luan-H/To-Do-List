@@ -10,9 +10,9 @@ Este é um projeto de To-Do list desenvolvido com HTML, CSS e JavaScript. O site
 - Remover Tarefas: Exclua tarefas clicando no botão de remoção ao lado da tarefa.
 - Armazenamento Local: As tarefas são salvas no Local Storage do navegador, permitindo que suas tarefas sejam preservadas entre sessões.
 # Tecnologias Utilizadas
--HTML: Estrutura do site
--CSS: Estilo e layout
--JavaScript: Funcionalidades interativas e manipulação do Local Storage
+- HTML: Estrutura do site
+- CSS: Estilo e layout
+- JavaScript: Funcionalidades interativas e manipulação do Local Storage
 # Como Usar
 - Acesse o Site: Navegue até To-Do List em seu navegador.
 - Adicionar Tarefas: Digite a tarefa no campo de entrada e clique em "Adicionar".
