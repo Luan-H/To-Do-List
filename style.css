@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F4F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2E2E2E;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #E65A50;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: opacity 0.3s ease, height 0.3s ease; /* Transição para opacidade e altura */
+    opacity: 1;
+    height: auto; /* Define a altura como automática */
+}
+
+li.removing {
+    opacity: 0; /* Ao remover, ele vai desaparecer lentamente */
+    height: 0; /* A altura vai encolher */
+    padding: 0; /* Remove o padding para evitar espaçamento residual */
+    margin-bottom: 0; /* Remove a margem também */
+}
+
+li span {
+    flex-grow: 1;
+    word-wrap: break-word; /* Quebra o texto longo em várias linhas */
+    overflow-wrap: break-word; /* Garante a quebra de palavra em texto longo */
+    max-width: 70%; /* Opcional: Limita a largura do texto */
+    white-space: nowrap; /* Evita quebra de linha (se usar junto com 'text-overflow') */
+    overflow: hidden; /* Esconde o texto excedente */
+    text-overflow: ellipsis; /* Adiciona '...' ao final do texto longo */
+}
+
+button.edit, button.delete {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.edit {
+    background-color: #ffc107;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
